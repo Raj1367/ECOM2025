@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+textarea {
+    resize: none;
+}
+
+.cart-button {
+    @apply w-full bg-gray-800 hover:bg-gray-900 transition-all duration-200 text-white font-medium p-2 rounded-lg cursor-pointer inline-flex items-center gap-2 justify-center;
+}
+
+
+.clear-cart-button {
+    @apply w-25 place-self-end border text-gray-800 border-gray-800 hover:border-red-500 hover:text-red-500 transition-all duration-200 font-medium p-2 rounded-lg cursor-pointer inline-flex items-center gap-2 justify-center;
+}
